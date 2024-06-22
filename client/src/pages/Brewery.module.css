@@ -1,0 +1,58 @@
+/* Brewery.module.css */
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  width: 90%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.reviewsContainer {
+  display: flex;
+  flex-wrap: wrap; /* Allow reviews to wrap to the next line */
+  margin-top: 20px;
+}
+
+.reviewCard {
+  flex: 0 0 calc(20% - 20px); /* Two cards per row (adjust as needed) */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: white; /* Optional: Adjust card background */
+}
+
+.addReview {
+  margin-top: 10px;
+}
+
+/* Your existing button styles */
+.button {
+  padding: 12px 45px;
+  background-color: #ff4b2b;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ff2600;
+}
