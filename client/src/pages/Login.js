@@ -15,7 +15,7 @@ const Login = () => {
 
     try {
       await login(email, password);
-      console.log("logged in");
+      /* console.log("logged in"); */
 
       // Check if user is logged in based on context
       if (user) {

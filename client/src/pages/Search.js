@@ -36,7 +36,7 @@ const Search = () => {
 
     try {
       const res = await axios.get(`/breweries/search?${params.toString()}`);
-      console.log(res.data);
+      /* console.log(res.data); */
       setBreweries(res.data);
     } catch (error) {
       console.error("Search error:", error);

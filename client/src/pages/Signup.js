@@ -20,7 +20,7 @@ const Signup = () => {
       return;
     }
     signup(username, email, password);
-    console.log("signedup");
+    /* console.log("signedup"); */
     navigate("/search");
   };
 
